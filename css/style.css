@@ -1,0 +1,23 @@
+.container{
+  width: 80%;
+  margin: 50px auto;
+  position: relative;
+}
+
+.slideImg{
+    width: 100%;
+    overflow: hidden;
+}
+.slider-inner{
+    position: relative;
+}
+.nextbtn,.prevbtn{
+    position: absolute;
+    top: 50%;
+}
+.prevbtn{
+    left: 20px;
+}
+.nextbtn{
+    right: 20px;
+}
